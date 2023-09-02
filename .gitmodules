@@ -1,0 +1,3 @@
+[submodule "badge-design"]
+	path = badge-design
+	url = https://github.com/electrolama/oshcamp23-badge/
