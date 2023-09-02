@@ -1,0 +1,8 @@
+[package]
+name = "oshcamp-badge-2023"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+esp8266-hal = { git = "https://github.com/esp-rs/esp8266-hal" }
+panic-halt = "0.2.0"

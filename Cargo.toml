@@ -1,0 +1,14 @@
+[workspace]
+
+resolver = "2"
+
+members = [
+    "oshcamp-badge-2023",
+]
+
+[profile.dev]
+lto = true
+opt-level = 1
+
+[profile.release]
+lto = true
