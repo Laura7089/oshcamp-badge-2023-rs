@@ -4,5 +4,5 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-esp8266-hal = { git = "https://github.com/esp-rs/esp8266-hal" }
+esp8266-hal = "0.5.1"
 panic-halt = "0.2.0"

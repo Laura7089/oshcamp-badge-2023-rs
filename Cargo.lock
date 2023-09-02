@@ -38,9 +38,9 @@ dependencies = [
 
 [[package]]
 name = "darling"
-version = "0.13.4"
+version = "0.10.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "a01d95850c592940db9b8194bc39f4bc0e89dee5c4265e4b1807c34a9aba453c"
+checksum = "0d706e75d87e35569db781a9b5e2416cff1236a47ed380831f959382ccd5f858"
 dependencies = [
  "darling_core",
  "darling_macro",
@@ -48,9 +48,9 @@ dependencies = [
 
 [[package]]
 name = "darling_core"
-version = "0.13.4"
+version = "0.10.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "859d65a907b6852c9361e3185c862aae7fafd2887876799fa55f5f99dc40d610"
+checksum = "f0c960ae2da4de88a91b2d920c2a7233b400bc33cb28453a2987822d8392519b"
 dependencies = [
  "fnv",
  "ident_case",
@@ -62,9 +62,9 @@ dependencies = [
 
 [[package]]
 name = "darling_macro"
-version = "0.13.4"
+version = "0.10.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "9c972679f83bdf9c42bd905396b6c3588a843a17f0f16dfcfa3e2c5d57441835"
+checksum = "d9b5a2f4ac4969822c62224815d069952656cadc7084fdca9751e6d959189b72"
 dependencies = [
  "darling_core",
  "quote",
@@ -107,7 +107,8 @@ dependencies = [
 [[package]]
 name = "esp8266-hal"
 version = "0.5.1"
-source = "git+https://github.com/esp-rs/esp8266-hal#2964bbc3be020d9110016643584fb53123a63d20"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "e7c184cc95d0cb4882733b294cc11da4f68aaf2a6f6a27284ae16e4a9206b0de"
 dependencies = [
  "embedded-hal",
  "esp8266",
@@ -122,7 +123,8 @@ dependencies = [
 [[package]]
 name = "esp8266-hal-proc-macros"
 version = "0.1.0"
-source = "git+https://github.com/esp-rs/esp8266-hal#2964bbc3be020d9110016643584fb53123a63d20"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "7979eeee9afa9b85ff845dfcbf6d69add2c7aa9cdde67e41818a67d910686873"
 dependencies = [
  "darling",
  "proc-macro2",
@@ -285,9 +287,9 @@ dependencies = [
 
 [[package]]
 name = "strsim"
-version = "0.10.0"
+version = "0.9.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "73473c0e59e6d5812c5dfe2a064a6444949f089e20eec9a2e5506596494e4623"
+checksum = "6446ced80d6c486436db5c078dde11a9f73d42b57fb273121e160b84f63d894c"
 
 [[package]]
 name = "strum"
